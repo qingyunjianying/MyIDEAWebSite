@@ -1,0 +1,64 @@
+.ph0{
+				height: 160px;
+				margin-top: 20px;
+				background: url(../img08/que.jpg) no-repeat ;
+				
+	}
+.left{
+	background-color: lightslategray;
+}
+	.left ul{
+		margin-top: 50px;
+	}
+	.left ul li{
+					width: 180px;
+					margin: 5px;
+					padding: 5px;
+					border-bottom: 1px dashed #fff;
+					line-height: 30px;
+					padding-left: 15px;
+					list-style: none;
+					font-family: "楷体";
+					font-size: 15px;
+					background-color: #5F9EA0;
+				
+			}
+.left ul li a{
+				text-decoration: none;
+				color: #FFFFFF;
+				display: inline-block;
+				width: 180px;
+				text-align: center;
+				
+			}
+.left ul li a:hover{
+					background-color: #5F9EA0;
+}
+
+	.right{
+		background-image: url(../img08/back.png) ;
+		background-size: cover;
+	}
+	
+	h3{
+	padding: 10px;
+}
+.right p{
+	
+	font-size: 13px;
+	line-height: 2em;
+	text-indent:1em;
+	margin: 5px;
+}
+.xleft{
+	width: 220px;
+	height: 610px;
+	float: left;
+	
+}
+.xright{
+	width: 500px;
+	margin-left: 30px;
+	float: left;
+	
+}

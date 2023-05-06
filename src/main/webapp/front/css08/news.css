@@ -1,0 +1,54 @@
+.left .ph1{
+	height: 152px;
+	background: url(../img08/new.jpg) no-repeat ;
+	margin: 8px;
+}
+.left{
+	background-color: lightslategray;
+}	
+.left .mo{
+		text-decoration: none;
+		background-color: #0A1F3A;
+		font-size: 15px;
+		color: aliceblue;
+		display: block;
+		text-align: right;
+		padding-right: 20px;
+		
+}
+.right .boxs{
+	height: 370px;
+	background-image: url(../img08/bground.jpg);
+	background-size: cover;
+	color: white;
+	
+}
+.boxs h3 .word{
+	padding-top: 5px;
+	font-size: 20px;	
+}
+.boxs h3 .img{
+	float: left;
+}
+.boxs .pp{
+	text-align: right;
+	padding-right: 20px;
+}
+.boxs ul{
+width: 500px;
+margin: 20px auto;
+}
+.boxs ul li {
+line-height: 30px;
+}
+.boxs ul li p{
+
+float: right;
+}
+.boxs ul li a{
+text-decoration: none;
+color: #F5F5F5;
+font-size: 17px;
+font-family: "仿宋";
+}
+

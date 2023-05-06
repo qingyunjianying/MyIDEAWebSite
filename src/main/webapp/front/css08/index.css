@@ -1,0 +1,239 @@
+*{margin: 0;padding: 0; }
+body{
+	background-image: url(../img08/background.jpg);
+	background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-origin: border-box;
+    
+    background-size:cover;
+	font-size: 12px;
+	
+	
+}
+.page{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.head{
+	height: 200px;
+	background-image: url(../img08/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav{
+	height: 40px;
+	background-color: #0A1F3A;
+}
+ul{
+	width: 700px;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	list-style: none;
+	
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-align: center;
+	width: 100px;
+	display: inline-block;
+}
+.nav ul li a:hover{
+	background-color: cadetblue;
+	border-radius: 10%;
+}
+.main{
+	width: 980px;
+	margin: 1px auto;
+	/*margin-top: 3px;*/
+	
+}
+.left{
+	width: 210px;
+	height: 610px;
+	float: left;
+	background-color: #CCCCCC;
+}
+h2{
+	height: 28px;
+	background: #0A1F3A;
+	line-height: 28px;
+	font-size: 8px;
+	color: aliceblue;
+	padding-left: 5px;
+}
+.left .ph{
+	height: 152px;
+	background: url(../img08/zhengfajiwa.jpg) no-repeat ;
+	margin: 5px;
+	
+	
+}
+.left .ph2{
+	height: 180px;
+	background: url(../img08/jisuanji.jpg) no-repeat ;
+	margin: 5px;
+	background-size: cover;
+	
+	
+}
+
+.left form{
+	width: 210px;
+	margin: 29px auto;
+
+}
+.left p{
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+.left p span{
+	width: 40px;
+	display: inline-block;
+	text-align: right;
+}
+.left .num,.pass{
+	width: 100px;
+	height: 18px;
+	border: 1px solid #3a1bf;
+	padding: 2px 2px 2px 22px;
+}
+.left .num{
+	background: url(../img08/1.jpg) no-repeat 5px center #fff;
+}
+.left .pass{
+	background: url(../img08/2.jpg) no-repeat 5px center #fff; 
+}
+.left .btu1,.btu2{
+	width: 60px;
+	height: 25px;
+	border-radius: 3px;
+	border: 1px solid #6b5d50;
+	margin-left: 30px;
+	background: aquamarine;
+}
+.right{
+	width: 760px;
+	height: 610px;
+	float: left;
+	background-color: #CCCCCC;
+	margin-left: 10px;
+}
+.banner{
+	height: 240px;
+	background: url(../img08/datu2.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;	
+}
+.banner .le,.ri{
+	float: left;
+	text-decoration: none;
+	width: 45px;
+	height: 120px;
+	line-height: 220px;
+	display: inline-block;
+	background: #333;
+	opacity: 0.7;
+	border-radius: 6px;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+	background-size: 80px;
+	line-height: 120px;
+	
+}
+.le{
+	position: absolute;
+	left: -9px;
+	top: 60px;
+	color: #F0F8FF;
+	
+}
+.ri{
+	position: absolute;
+	right: -9px;
+	top: 60px;
+	color: #F0F8FF;
+}
+.banner:hover a{
+	display: block;
+}
+.banner ul{
+	width: 110px;
+	height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 8px;
+	position: absolute;
+	right: 18px;
+	bottom: 10px;
+	
+}
+.banner ul li{
+	width: 5px;
+	height: 5px;
+	background-color: #ccc;
+	border-radius: 80%;
+	display: inline-block;
+	padding-right: 5px;
+	
+}
+.box{
+	width: 370px;
+	height: 174px;
+	margin: 5px;
+	float: left;
+}
+.box .more{
+	position: absolute;
+	text-decoration: none;
+	color: #CCCCCC;
+	display: inline-block;
+	float: left;
+	width: 300px;
+	text-align: right;
+	
+}
+.right img{
+	display: inline-block;
+	margin: 5px;
+}
+
+.box ul{
+	margin: 0 175px;
+	padding: 5px;	
+}
+.box ul li{
+	height: 30px;
+	line-height: 30px;
+}
+.box ul li a{
+text-decoration: none;
+text-align: left;
+color:black;
+display: inline-block;
+width: 170px;
+height: 25px;
+overflow: hidden;
+}
+
+.clear{
+	clear: both;
+}
+.footer{
+	width: 100%;
+	height: 80px;
+	background-color:#0a1f3a;
+	text-align: center;
+	line-height: 80px;
+	color: #FFFFFF;
+	margin-top: 2px;
+}
